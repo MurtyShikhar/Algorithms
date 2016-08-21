@@ -4,7 +4,8 @@
 
 using namespace std;
 
-
+// learning: Came up with dp state on my own, but missed the fact that number of divisors of a number are much lesser than O(n). 
+// Hence reduce O(n*k*k) to O(n*k*divisors(k))
 class DivFreed2{
 public:
 	int count(int n, int k){
