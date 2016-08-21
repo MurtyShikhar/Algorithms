@@ -5,6 +5,11 @@
 #include <tuple>
 #include <queue>
 
+/* Djikstra's algorithm: Put start point in set: Then while set is not empty:
+	pick min and remove it from set (THis is the shortest path to this point)
+	relax edges of all its neighbors, and enqueue if relaxation possible. Also remove if older already inside set.
+ */
+
 using namespace std;
 class DoubleWeights{
 public:
