@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-
+hn
 class ChooseTheBestOne{
 public:
 	int countNumber(int N){
