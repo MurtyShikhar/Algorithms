@@ -23,7 +23,7 @@ int main() {
 	else ans = 3;
 
 	/*ans =2 for even; (using goldbach's conjecture -> every even number can be expressed as sum of 2 primes)
-	  for any odd number k = 3 + (k-3) 
+	  for any odd number n, if n-2 is prime then ans = 2. else n = 3 + even_number -> ans is 3.
 	 */
 	
 	cout << ans << "\n";
